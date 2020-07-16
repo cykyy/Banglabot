@@ -8,5 +8,7 @@ Clone the project then cd the folder 'Banglabot' and type & hit 'pod install' on
 Please see the LICENSE.md file.
 
 Any contributions are welcome.
+
 Get the Banglabot app from app store.
+<br>
 [![Banglabot for iOS](https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://apps.apple.com/us/app/banglabot/id1493366435)
