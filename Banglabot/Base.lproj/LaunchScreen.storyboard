@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg11" translatesAutoresizingMaskIntoConstraints="NO" id="xWl-hK-Qxm">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="b9Q-8a-fF3">
+                                <rect key="frame" x="54.333333333333343" y="268.33333333333337" width="266.33333333333326" height="275.33333333333337"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo " translatesAutoresizingMaskIntoConstraints="NO" id="edT-YI-cUb">
+                                        <rect key="frame" x="45.666666666666657" y="0.0" width="175" height="136.33333333333334"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Banglabot" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xnC-pK-zs3">
+                                        <rect key="frame" x="84.666666666666657" y="160.33333333333337" width="97.333333333333343" height="26.333333333333343"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Bangla Image to Text Scanner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Baz-WX-WHs">
+                                        <rect key="frame" x="0.0" y="210.66666666666669" width="266.33333333333331" height="20.333333333333343"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ছবি থেকে লেখা ডিটেক্টর" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8LP-Cs-EQW">
+                                        <rect key="frame" x="56.666666666666671" y="255.00000000000009" width="153.33333333333331" height="20.333333333333343"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="b9Q-8a-fF3" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" identifier="$cn35" id="AIJ-Wr-S4i"/>
+                            <constraint firstItem="b9Q-8a-fF3" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" identifier="$cn36" id="bb3-aV-bvE"/>
+                            <constraint firstItem="xWl-hK-Qxm" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" identifier="$cn31" id="iP8-N3-Jie"/>
+                            <constraint firstItem="xWl-hK-Qxm" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" identifier="$cn32" id="ka6-RE-ysz"/>
+                            <constraint firstAttribute="trailing" secondItem="xWl-hK-Qxm" secondAttribute="trailing" identifier="$cn33" id="nCh-58-QoM"/>
+                            <constraint firstAttribute="bottom" secondItem="xWl-hK-Qxm" secondAttribute="bottom" identifier="$cn34" id="r20-77-hAM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.625" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg11" width="566.66668701171875" height="1166.6666259765625"/>
+        <image name="logo " width="175" height="136.33332824707031"/>
+    </resources>
+</document>
