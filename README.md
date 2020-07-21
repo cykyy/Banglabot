@@ -11,4 +11,4 @@ Any contributions are welcome.
 
 Get the Banglabot app from app store.
 <br>
-[![Banglabot for iOS](https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://apps.apple.com/us/app/banglabot/id1493366435)
+[Banglabot](https://apps.apple.com/us/app/banglabot/id1493366435)
